@@ -1,7 +1,7 @@
 {
-  "name": "ts-jest-abiapuntua",
+  "name": "calculator",
   "version": "1.0.0",
-  "description": "TypeScript eta Jest erabiliz projektu bat sortzeko abiapuntua",
+  "description": "Calculator",
   "scripts": {
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",

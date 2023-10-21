@@ -1,48 +1,58 @@
-# TypeScript eta Jest abiapuntua
+# Calculator
 
-> *OHARRA: Template hau egiteko [typescript-basic-skeleton](https://github.com/CodelyTV/typescript-basic-skeleton) eta [TypeScriptKatas](https://github.com/CodelyTV/typescript-basic-skeleton) proiektuetan oinarritu naiz neurri batean.*
+Honakoa kalkulagailu basiko bat da. Batuketak, kenketak, biderkaketak eta zatiketak burutu ditzake.
 
-Template honen helburua TypeScript eta Jest erabiliz proiektu bat sortzeko abiapuntu izatea da.
+## Egin beharrekoa
 
-## Nola erabili
+- [ ] Existitzen diren metodoei testak gehitu (*Arrage/Act/Assert , Given/When/Then*)
+- [ ] Zerogatik zatitzen saiatzean errore bat jaurti
+- [ ] Kenketaren kasuan, emaitzak dezimalak badauzka, borobildu
+- [ ] Kenketaren kasuan, emaitza negatiboa bada, errore bat jaurti
+- [ ] `describe`/`context` erabili
+- [ ] `beforeEach` erabili
 
-### Dependentziak instalatu
+---
+
+### Nola erabili
+
+#### Dependentziak instalatu
 
 ```bash
 npm install
 ```
 
-### Testak behin exekutatu
+#### Testak behin exekutatu
 
 ```bash
 npm test
 ```
 
-### Testak exekutatu eta aldaketa bakoitzaren ondoren automatikoki ber-exekutatu:
+#### Testak exekutatu eta aldaketa bakoitzaren ondoren automatikoki ber-exekutatu:
 
 ```bash
 npm run test:watch
 ```
 
-### Testak kode estaldurarekin exekutatu
+#### Testak kode estaldurarekin exekutatu
 
 ```bash
 npm run test:coverage
 ```
 
-### Lintern erroreak egiaztatu
+#### Lintern erroreak egiaztatu
 
 ```bash
 npm run lint
 ```
 
-### Lintern erroreak zuzendu
+#### Lintern erroreak zuzendu
 
 ```bash
 npm run lint:fix
 ```
 
-## Hook-ak
+### Hook-ak
+
 Proiektuak `pre-commit` hook bat dakar `commit` egiten den bakoitzean automatikoki testak exekutatu ditzan.
 
 Hau ekidin nahi bada `--no-verify` erabil daiteke `commit` egiterakoan.
