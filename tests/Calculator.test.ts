@@ -32,4 +32,10 @@ describe("Calculator", () => {
 
         expect(result).toEqual(5);
     });
+
+    it("should throw an error when dividing by 0", () => {
+        const calculator = new Calculator();
+
+        expect(() => calculator.divide(10, 0)).toThrow("can not divide by zero");
+    });
 });

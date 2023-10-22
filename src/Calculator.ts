@@ -12,6 +12,10 @@ export class Calculator {
     };
 
     divide (a: number, b: number): number {
+        if (b === 0) {
+            throw new Error("can not divide by zero");
+        }
+
         return a / b;
     };
 }
