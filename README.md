@@ -9,7 +9,7 @@ Honakoa kalkulagailu basiko bat da. Batuketak, kenketak, biderkaketak eta zatike
 - [x] Kenketaren kasuan, emaitzak dezimalak badauzka, borobildu
 - [x] Kenketaren kasuan, emaitza negatiboa bada, errore bat jaurti
 - [x] `describe`/`context` erabili
-- [ ] `beforeEach` erabili
+- [x] `beforeEach` erabili
 
 ---
 
