@@ -6,7 +6,7 @@ Honakoa kalkulagailu basiko bat da. Batuketak, kenketak, biderkaketak eta zatike
 
 - [x] Existitzen diren metodoei testak gehitu (*Arrage/Act/Assert , Given/When/Then*)
 - [x] Zerogatik zatitzen saiatzean errore bat jaurti
-- [ ] Kenketaren kasuan, emaitzak dezimalak badauzka, borobildu
+- [x] Kenketaren kasuan, emaitzak dezimalak badauzka, borobildu
 - [ ] Kenketaren kasuan, emaitza negatiboa bada, errore bat jaurti
 - [ ] `describe`/`context` erabili
 - [ ] `beforeEach` erabili

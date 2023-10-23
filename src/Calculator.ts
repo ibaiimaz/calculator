@@ -4,7 +4,9 @@ export class Calculator {
     }
 
     subtract (a: number, b: number): number {
-        return a - b;
+        const result = a - b;
+
+        return Math.round(result);
     };
 
     multiply (a: number, b: number): number {

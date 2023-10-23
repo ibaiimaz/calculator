@@ -17,6 +17,14 @@ describe("Calculator", () => {
         expect(result).toEqual(3);
     });
 
+    it("decimal results should be rounded on subtraction", () => {
+        const calculator = new Calculator();
+
+        const result = calculator.subtract(0.6, 1);
+
+        expect(result).toEqual(-0);
+    });
+
     it("should multiply given numbers", () => {
         const calculator = new Calculator();
 
