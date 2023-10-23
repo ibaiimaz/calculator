@@ -5,8 +5,13 @@ export class Calculator {
 
     subtract (a: number, b: number): number {
         const result = a - b;
+        const roundedResult = Math.round(result);
 
-        return Math.round(result);
+        if (roundedResult < 0) {
+            throw new Error("negative result not allowed");
+        }
+
+        return roundedResult;
     };
 
     multiply (a: number, b: number): number {

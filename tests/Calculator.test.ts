@@ -25,6 +25,12 @@ describe("Calculator", () => {
         expect(result).toEqual(-0);
     });
 
+    it("should throw and error when subtraction result is negative", () => {
+        const calculator = new Calculator();
+
+        expect(() => calculator.subtract(3, 6)).toThrow("negative result not allowed");
+    });
+
     it("should multiply given numbers", () => {
         const calculator = new Calculator();
 
